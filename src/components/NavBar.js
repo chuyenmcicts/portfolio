@@ -68,13 +68,13 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#0">
+              <a href="https://www.linkedin.com/in/chuyen-mai-0083991b0/">
                 <img src={navIcon1} alt="social" />
               </a>
-              <a href="#1">
+              <a href="https://www.facebook.com/chuynbun/">
                 <img src={navIcon2} alt="social" />
               </a>
-              <a href="#2">
+              <a href="https://www.instagram.com/chuynmc/">
                 <img src={navIcon3} alt="social" />
               </a>
             </div>
@@ -85,5 +85,5 @@ export const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  )
+  );
 };
